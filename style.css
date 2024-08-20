@@ -1,0 +1,130 @@
+body{
+    background-color: black;
+}
+.logo{
+    width: 600px;
+    height: 600px;
+}
+h1{
+    color: white;
+    font-size: 50px;
+    
+}
+h2{
+    color: white;
+    font-size: 30px;
+}
+h3{
+    color: white;
+    font-size: 20px;
+    
+}
+td{
+    color: white;
+    
+
+}
+.text{
+    color: grey;
+    font-size: 12px;
+}
+
+.button1:link{
+    padding:10px 50px 10px 50px;
+    font-weight:bold;
+    font-size: 15px;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    margin-top: 50px;
+    
+}
+.button1:hover{
+    color:black
+}
+.button1:visited{
+    color: black
+}
+
+.button2:hover{
+    color: white;
+}
+
+.button2:link{
+    padding:10px 75px 10px 75px;
+    font-size: 15px;
+    border-radius: 50px;
+    background-color:  rgb(46, 143, 254);
+    color:white;
+    text-decoration: none;
+    margin-top: 50px;
+    
+}
+
+.button2:visited{
+    color: white;
+}
+.button3{
+    padding:10px 100px 10px 100px;
+    font-weight:bold;
+    font-size: 15px;
+    border-radius: 50px;
+    background-color: black;
+    border:1px solid white;
+    color: rgb(46, 143, 254);
+    margin-top: 50px;
+    
+    
+    
+}
+.button3:hover{
+    color: rgb(46, 143, 254);
+}
+.button3:visited{
+    color: rgb(46, 143, 254);
+} 
+a:link{
+    color:rgb(46, 143, 254);
+    text-decoration: none;
+    
+}
+a:hover{
+    color:rgb(46, 143, 254);
+}
+ a:visited{
+    color:rgb(46, 143, 254);
+}
+img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+}
+.pic1{
+    width: 25px;
+    height: 20px;
+}
+h4 {
+    position: relative;
+    font-size: 12px;
+    z-index: 1;
+    overflow: hidden;
+    text-align: center;
+    width: 75%;
+}
+h4:before, h4:after {
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 60%;
+    height: 1px;
+    content: '\a0';
+    background-color: gray;
+}
+h4:before {
+    margin-left: -60%;
+    text-align: right;
+}
+.color {
+    background-color: #ccc;
+}
