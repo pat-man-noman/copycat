@@ -10,12 +10,10 @@
   background-color: black;
 }
 .logo {
-  width: 405px;
-  height: 365px;
-  padding-right: 175px;
-  padding-left: 90px;
+  width: 320px;
+  padding-right: 385px;
   margin-top: -3%;
-  margin-left: 4%;
+  margin-left: 0%;
 }
 .head1 {
   color: whitesmoke;
@@ -43,6 +41,7 @@
 .text {
   color: grey;
   font-size: 12px;
+  text-align: left;
 }
 .button4:link {
   padding: 10px 77px 10px 77px;
@@ -193,6 +192,7 @@
   font-size: 2px;
   margin-left: -1.5%;
   font-family: rchirp;
+  margin-top: 9%;
   
   }
 .stamp{
@@ -212,6 +212,10 @@
   margin-bottom: 15px;
   font-family: rchirp;
 
+}
+.space{
+  margin-left: 20%;
+  margin-top: 10%;
 }
 
   
